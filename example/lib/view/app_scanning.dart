@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-
 import 'package:flutter_beacon/flutter_beacon.dart';
-import 'package:flutter_beacon_example/controller/requirement_state_controller.dart';
 import 'package:get/get.dart';
+import '../controller/requirement_state_controller.dart';
 
 class TabScanning extends StatefulWidget {
   @override
@@ -47,7 +46,7 @@ class _TabScanningState extends State<TabScanning> {
     final regions = <Region>[
       Region(
         identifier: 'Cubeacon',
-        proximityUUID: 'CB10023F-A318-3394-4199-A8730C7C1AEC',
+        proximityUUID: 'fda50693-a4e2-4fb1-afcf-c6eb07647825',
       ),
       Region(
         identifier: 'BeaconType2',
